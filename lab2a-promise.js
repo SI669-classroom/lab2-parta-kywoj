@@ -41,7 +41,7 @@ function countBig(bignum) {
 
 
 start = Date.now();
-bignum = 10;
+bignum = 10; // Changed value to 10 to shorten wait time
 countBig(bignum).then(()=> {
     console.log("It took " + (Date.now() - start) + " ms to count to " + bignum);
 }, () => {
